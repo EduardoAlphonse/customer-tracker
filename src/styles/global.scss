@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  @media screen and (max-width: 1400px) {
+    font-size: 87.5%;
+  }
+}
+
+:root {
+  --green: #2d8a68;
+  --green-medium: #267d5c;
+  --green-dark: #1e714f;
+  --green-darker: #0f5737;
+
+  --text: #3f3f3f;
+  --text-light: #767676;
+  --divider: #d2d2d2;
+
+  --background-light: #f7f7f7;
+
+  --white: #ffffff;
+
+  --border-radius: 6px;
+}
+
+body,
+button,
+input,
+textarea {
+  font: 400 1rem "Poppins", sans-serif;
+}
+
+body,
+input,
+textarea {
+  color: var(--text);
+}
